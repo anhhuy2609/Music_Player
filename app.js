@@ -48,19 +48,19 @@ const app = {
          {
              name: 'Shadow Of The Sun',
              singer: 'Max Elto',
-             path: './assets/music/In The Shadow Of The Sun (Original Mix) - Professor Green (Kain Music) ♪ -- 全网热播BGM - 抖音 - TikTok.mp4',
+             path: './assets/music/In The Shadow Of The Sun.mp4',
              image: 'https://photo-resize-zmp3.zmdcdn.me/w94_r1x1_webp/cover/6/f/2/8/6f28878127e53235306b77bc6ba60c12.jpg'
          },
          {
              name: 'My Stupid Heart',
              singer: 'Walk Off The Earth',
-             path: './assets/music/My Stupid Heart - Walk off the Earth - Kids Version (Lyrics + Vietsub) ♫.mp4',
+             path: './assets/music/My Stupid Heart - Walk off the Earth - Kids Version.mp4',
              image: 'https://photo-resize-zmp3.zmdcdn.me/w94_r1x1_webp/cover/8/9/c/d/89cd3f98c3734d2c1c7ebc8913d16c70.jpg'                    
          },
          {
              name: 'Dynasty',
              singer: 'Miia',
-             path: './assets/music/Dynasty - MIIA (Lyrics + Vietsub) ♫.mp4',
+             path: './assets/music/Dynasty - MIIA.mp4',
              image: 'https://photo-resize-zmp3.zmdcdn.me/w94_r1x1_webp/cover/6/1/6/6/61663c30e49776ab7da00219e66a3bc0.jpg'
          },
          {
@@ -72,7 +72,7 @@ const app = {
          {
              name: 'At My Worst',
              singer: 'Sympton X Collective',
-             path: './assets/music/Pink Sweat$ - At My Worst (Lyrics).mp4',
+             path: './assets/music/Pink Sweat- At My Worst (Lyrics).mp4',
              image: 'https://photo-resize-zmp3.zmdcdn.me/w94_r1x1_webp/cover/8/3/9/5/8395c8b202b930eec67dfc88e3a2e6f8.jpg'
          },
          {
@@ -84,13 +84,13 @@ const app = {
          {
              name: 'Love Is Gone',
              singer: 'Dansyyfi, Julia',
-             path: './assets/music/Love is gone - SLANDER (1-45) (Justin Dai - Marvin remix)-Nhạc 拌音Douyin TikTok.mp4',
+             path: './assets/music/Love is gone - SLANDER (1-45) (Justin Dai - Marvin remix).mp4',
              image: 'https://photo-resize-zmp3.zmdcdn.me/w94_r1x1_webp/cover/1/1/6/0/116071615e49ddefa98fccc06d585aab.jpg'
          },
          {
              name: 'Scars To Your Beautiful',
              singer: 'Alolyssa',
-             path: './assets/music/[Vietsub] MASHUP Scars to your beautiful x Umbrella x Something just like this... - MASHUP CỰC HAY.mp4',
+             path: './assets/music/[Vietsub] MASHUP Scars to your beautiful x Umbrella x Something just like this.mp4',
              image: 'https://photo-resize-zmp3.zmdcdn.me/w94_r1x1_webp/cover/5/2/4/f/524fe03782e9bc2433c40c6af92e5720.jpg'
          }
      ],
