@@ -49,49 +49,49 @@ const app = {
              name: 'Shadow Of The Sun',
              singer: 'Max Elto',
              path: './assets/music/Shadow Of The Sun.mp4',
-             image: 'https://photo-resize-zmp3.zmdcdn.me/w94_r1x1_webp/cover/6/f/2/8/6f28878127e53235306b77bc6ba60c12.jpg'
+             image: './assets/img/image1.webp'
          },
          {
              name: 'My Stupid Heart',
              singer: 'Walk Off The Earth',
              path: './assets/music/My Stupid Heart - Walk off the Earth - Kids Version.mp4',
-             image: 'https://photo-resize-zmp3.zmdcdn.me/w94_r1x1_webp/cover/8/9/c/d/89cd3f98c3734d2c1c7ebc8913d16c70.jpg'                    
+             image: './assets/img/image2.webp'                    
          },
          {
              name: 'A Sky Full Of Star',
              singer: 'Miia',
              path: './assets/music/A sky full of star.mp4',
-             image: 'https://photo-resize-zmp3.zmdcdn.me/w94_r1x1_webp/cover/6/1/6/6/61663c30e49776ab7da00219e66a3bc0.jpg'
+             image: './assets/img/image3.webp'
          },
          {
              name: 'Golden Hour',
              singer: 'JVKE',
              path: './assets/music/Sunset lover.mp4',
-             image: 'https://photo-resize-zmp3.zmdcdn.me/w94_r1x1_webp/cover/f/e/1/f/fe1fd540749c662acffd7961de200278.jpg'
+             image: './assets/img/image4.webp'
          },
          {
              name: 'At My Worst',
              singer: 'Sympton X Collective',
              path: './assets/music/Nơi đâu cũng thấy em.mp4',
-             image: 'https://photo-resize-zmp3.zmdcdn.me/w94_r1x1_webp/cover/8/3/9/5/8395c8b202b930eec67dfc88e3a2e6f8.jpg'
+             image: './assets/img/image5.webp'
          },
          {
              name: 'As It Was',
              singer: 'PREP',
              path: './assets/music/as it was - sped up.mp4',
-             image: 'https://photo-resize-zmp3.zmdcdn.me/w94_r1x1_webp/cover/4/c/3/0/4c30e4c4d687237eaed00b73aa703ab5.jpg'
+             image: './assets/img/image6.webp'
          },
          {
              name: 'Love Is Gone',
              singer: 'Dansyyfi, Julia',
              path: './assets/music/Somewhere in time.mp4',
-             image: 'https://photo-resize-zmp3.zmdcdn.me/w94_r1x1_webp/cover/1/1/6/0/116071615e49ddefa98fccc06d585aab.jpg'
+             image: './assets/img/image7.webp'
          },
          {
              name: 'Scars To Your Beautiful',
              singer: 'Alolyssa',
              path: './assets/music/Is it just me.mp4',
-             image: 'https://photo-resize-zmp3.zmdcdn.me/w94_r1x1_webp/cover/5/2/4/f/524fe03782e9bc2433c40c6af92e5720.jpg'
+             image: './assets/img/image8.webp'
          }
      ],
 
