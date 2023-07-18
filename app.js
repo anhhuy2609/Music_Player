@@ -48,7 +48,7 @@ const app = {
          {
              name: 'Shadow Of The Sun',
              singer: 'Max Elto',
-             path: './assets/music/In The Shadow Of The Sun.mp4',
+             path: './assets/music/Shadow Of The Sun.mp4',
              image: 'https://photo-resize-zmp3.zmdcdn.me/w94_r1x1_webp/cover/6/f/2/8/6f28878127e53235306b77bc6ba60c12.jpg'
          },
          {
@@ -58,21 +58,21 @@ const app = {
              image: 'https://photo-resize-zmp3.zmdcdn.me/w94_r1x1_webp/cover/8/9/c/d/89cd3f98c3734d2c1c7ebc8913d16c70.jpg'                    
          },
          {
-             name: 'Dynasty',
+             name: 'A Sky Full Of Star',
              singer: 'Miia',
-             path: './assets/music/Dynasty - MIIA.mp4',
+             path: './assets/music/A sky full of star.mp4',
              image: 'https://photo-resize-zmp3.zmdcdn.me/w94_r1x1_webp/cover/6/1/6/6/61663c30e49776ab7da00219e66a3bc0.jpg'
          },
          {
              name: 'Golden Hour',
              singer: 'JVKE',
-             path: './assets/music/JVKE - golden hour (Fujii Kaze Remix).mp4',
+             path: './assets/music/Sunset lover.mp4',
              image: 'https://photo-resize-zmp3.zmdcdn.me/w94_r1x1_webp/cover/f/e/1/f/fe1fd540749c662acffd7961de200278.jpg'
          },
          {
              name: 'At My Worst',
              singer: 'Sympton X Collective',
-             path: './assets/music/Pink Sweat- At My Worst (Lyrics).mp4',
+             path: './assets/music/Nơi đâu cũng thấy em.mp4',
              image: 'https://photo-resize-zmp3.zmdcdn.me/w94_r1x1_webp/cover/8/3/9/5/8395c8b202b930eec67dfc88e3a2e6f8.jpg'
          },
          {
@@ -84,13 +84,13 @@ const app = {
          {
              name: 'Love Is Gone',
              singer: 'Dansyyfi, Julia',
-             path: './assets/music/Love is gone - SLANDER (1-45) (Justin Dai - Marvin remix).mp4',
+             path: './assets/music/Somewhere in time.mp4',
              image: 'https://photo-resize-zmp3.zmdcdn.me/w94_r1x1_webp/cover/1/1/6/0/116071615e49ddefa98fccc06d585aab.jpg'
          },
          {
              name: 'Scars To Your Beautiful',
              singer: 'Alolyssa',
-             path: './assets/music/[Vietsub] MASHUP Scars to your beautiful x Umbrella x Something just like this.mp4',
+             path: './assets/music/Is it just me.mp4',
              image: 'https://photo-resize-zmp3.zmdcdn.me/w94_r1x1_webp/cover/5/2/4/f/524fe03782e9bc2433c40c6af92e5720.jpg'
          }
      ],
