@@ -260,24 +260,25 @@ const app = {
              })
          }, 300)
      },
-     loadConfig: function() {
-         this.isRandom = this.config.isRandom
-         this.isRepeat = this.config.isRepeat
-         this.currentIndex = this.config.currentIndex
-         // this.volumnCurrent = this.config.volumnCurrent
-         // console.log(this.volumnCurrent)
-         // volumnSlider.value = this.config.volumnCurrent
-         // this.handleVolumn(this.config.volumnCurrent)
-         // Object.assign(this, this.config)
-         randomBtn.classList.toggle('active', this.isRandom)
-         repeatBtn.classList.toggle('active', this.isRepeat)
-     },
+     
      loadCurrentSong: function() {
          heading.textContent = this.currentSong.name
          cdThumb.style.backgroundImage = `url('${this.currentSong.image}')`
          audio.src = this.currentSong.path
-         this.setConfig('currentIndex', this.currentIndex)
+        //  this.setConfig('currentIndex', this.currentIndex)
      },
+     loadConfig: function() {
+        this.isRandom = this.config.isRandom
+        this.isRepeat = this.config.isRepeat
+        // this.currentIndex = this.config.currentIndex
+        // this.volumnCurrent = this.config.volumnCurrent
+        // console.log(this.volumnCurrent)
+        // volumnSlider.value = this.config.volumnCurrent
+        // this.handleVolumn(this.config.volumnCurrent)
+        // Object.assign(this, this.config)
+        randomBtn.classList.toggle('active', this.isRandom)
+        repeatBtn.classList.toggle('active', this.isRepeat)
+    },
      nextSong: function () {
          this.currentIndex++
          if(this.currentIndex >= this.songs.length){
@@ -341,7 +342,7 @@ const app = {
      },
      start: function(){
          //Gán cấu hình từ config vào ứng dụng player
-         this.loadConfig()
+         this.loadConfig
 
          //Định nghĩa các thuộc tính Object
          this.defineProperties()
