@@ -59,19 +59,19 @@ const app = {
          },
          {
              name: 'A Sky Full Of Star',
-             singer: 'Miia',
+             singer: 'Coldplay',
              path: './assets/music/A sky full of star.mp4',
              image: './assets/img/image3.webp'
          },
          {
-             name: 'Golden Hour',
-             singer: 'JVKE',
+             name: 'Sunset lover',
+             singer: 'Petit Biscuit',
              path: './assets/music/Sunset lover.mp4',
              image: './assets/img/image4.webp'
          },
          {
-             name: 'At My Worst',
-             singer: 'Sympton X Collective',
+             name: 'Nơi đâu cũng thấy em',
+             singer: 'YoungCaptain',
              path: './assets/music/Nơi đâu cũng thấy em.mp4',
              image: './assets/img/image5.webp'
          },
@@ -82,14 +82,14 @@ const app = {
              image: './assets/img/image6.webp'
          },
          {
-             name: 'Love Is Gone',
-             singer: 'Dansyyfi, Julia',
+             name: 'Somewhere in time',
+             singer: 'Accusefive',
              path: './assets/music/Somewhere in time.mp4',
              image: './assets/img/image7.webp'
          },
          {
-             name: 'Scars To Your Beautiful',
-             singer: 'Alolyssa',
+             name: 'Is it just me',
+             singer: 'Sasha Alex Sloan',
              path: './assets/music/Is it just me.mp4',
              image: './assets/img/image8.webp'
          }
@@ -265,12 +265,11 @@ const app = {
          heading.textContent = this.currentSong.name
          cdThumb.style.backgroundImage = `url('${this.currentSong.image}')`
          audio.src = this.currentSong.path
-        //  this.setConfig('currentIndex', this.currentIndex)
+         this.setConfig('currentIndex', this.currentIndex)
      },
      loadConfig: function() {
         this.isRandom = this.config.isRandom
         this.isRepeat = this.config.isRepeat
-        // this.currentIndex = this.config.currentIndex
         // this.volumnCurrent = this.config.volumnCurrent
         // console.log(this.volumnCurrent)
         // volumnSlider.value = this.config.volumnCurrent
@@ -278,6 +277,9 @@ const app = {
         // Object.assign(this, this.config)
         randomBtn.classList.toggle('active', this.isRandom)
         repeatBtn.classList.toggle('active', this.isRepeat)
+        if(this.currentIndex !== null) {
+            this.currentIndex = this.config.currentIndex
+        }
     },
      nextSong: function () {
          this.currentIndex++
@@ -342,7 +344,7 @@ const app = {
      },
      start: function(){
          //Gán cấu hình từ config vào ứng dụng player
-         this.loadConfig
+         this.loadConfig()
 
          //Định nghĩa các thuộc tính Object
          this.defineProperties()
@@ -352,7 +354,6 @@ const app = {
 
          //Tải thông tin bài hát đầu tiên khi chạy ứng dụng
          this.loadCurrentSong()
-
          //Render playlist
          this.render()
          
