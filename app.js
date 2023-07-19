@@ -265,7 +265,7 @@ const app = {
          heading.textContent = this.currentSong.name
          cdThumb.style.backgroundImage = `url('${this.currentSong.image}')`
          audio.src = this.currentSong.path
-         this.setConfig('currentIndex', this.currentIndex)
+        //  this.setConfig('currentIndex', this.currentIndex)
      },
      loadConfig: function() {
         this.isRandom = this.config.isRandom
