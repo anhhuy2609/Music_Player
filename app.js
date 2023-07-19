@@ -54,7 +54,7 @@ const app = {
          {
              name: 'My Stupid Heart',
              singer: 'Walk Off The Earth',
-             path: './assets/music/My Stupid Heart - Walk off the Earth - Kids Version.mp4',
+             path: './assets/music/My Stupid Heart.mp4',
              image: './assets/img/image2.webp'                    
          },
          {
@@ -78,7 +78,7 @@ const app = {
          {
              name: 'As It Was',
              singer: 'PREP',
-             path: './assets/music/as it was - sped up.mp4',
+             path: './assets/music/as it was.mp4',
              image: './assets/img/image6.webp'
          },
          {
