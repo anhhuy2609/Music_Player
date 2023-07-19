@@ -277,12 +277,6 @@ const app = {
         // Object.assign(this, this.config)
         randomBtn.classList.toggle('active', this.isRandom)
         repeatBtn.classList.toggle('active', this.isRepeat)
-        if(this.currentIndex !== null) {
-            this.currentIndex = this.config.currentIndex
-        }
-        else {
-            this.currentIndex = 0
-        }
     },
      nextSong: function () {
          this.currentIndex++
