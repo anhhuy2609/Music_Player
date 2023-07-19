@@ -280,6 +280,9 @@ const app = {
         if(this.currentIndex !== null) {
             this.currentIndex = this.config.currentIndex
         }
+        else {
+            this.currentIndex = 0
+        }
     },
      nextSong: function () {
          this.currentIndex++
